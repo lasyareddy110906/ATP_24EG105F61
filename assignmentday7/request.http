@@ -1,0 +1,77 @@
+
+### read a specific user by id
+POST http://localhost:4000/user-api/users
+Content-Type: application/json 
+
+{
+    "username":"jane",
+    "password":"jane123",
+    "email":"jane@eamp.com"
+}
+
+#####
+
+GET http://localhost:4000/user-api/users
+
+
+
+########
+GET http://localhost:4000/user-api/users/69aa9cabf5c75ba33051d
+
+
+######
+PUT http://localhost:4000/user-api/users/69aa8c412a3dea88c8076b64
+Content-Type: application/json
+
+{
+    "username":"jane_doeeeee",
+    "password":"jane1234",
+    "email":"jane_doe@example.com"
+}
+
+
+#######
+DELETE http://localhost:4000/user-api/users/69aa8c412a3dea88c8076b64
+
+
+
+
+__________________________________________________________________________________________________
+
+############
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+    "productId":"P003",
+    "productName":"Laptop",
+    "price":16000,
+    "brand":"apple"
+}
+
+#####
+GET http://localhost:4000/product-api/products
+
+
+#######
+GET http://localhost:4000/product-api/products/69aaa97b896fa949d24f7c5b
+
+
+
+
+##########
+PUT http://localhost:4000/product-api/products/69aaa962896fa949d24f7c57
+Content-Type: application/json
+
+{
+    "productId":"P001",
+    "productName":"Laptop",
+    "price":15000,
+    "brand":"dell"
+}
+
+
+
+########
+DELETE http://localhost:4000/product-api/products/69aaa7c54ad22b1d287d5273
+
