@@ -1,0 +1,24 @@
+img{
+    display: block;
+    margin: auto;
+    
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h3{
+    color: brown;
+    
+}
+div{
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+body{
+    background-color: aquamarine;
+}
+hr{
+    border-color: yellow;
+}
