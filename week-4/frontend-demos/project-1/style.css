@@ -1,0 +1,21 @@
+/*
+selector{
+    styles
+}
+    */
+h1{
+    color: lavender;
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(189, 43, 43);
+    padding: 100px;
+    margin: 100px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+a{
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+3 layers: http server, api, database
+
+client side application------------->[http request]------>http server----------->api--------------->[handle requests]--------->database
+
+
