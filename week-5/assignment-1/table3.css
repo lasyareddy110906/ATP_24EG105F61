@@ -1,0 +1,32 @@
+table{
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+td{
+    border: 2px solid black;
+    padding-top: 0;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: aquamarine;
+}
+img{
+    max-width: 200px;
+    width: 100%;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+tr:nth-child(odd){
+    background-color:aqua;
+}
+body{
+    background-color: aquamarine;
+}

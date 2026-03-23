@@ -1,0 +1,53 @@
+*{
+    border: 0;
+
+}
+
+.empcard{
+    border: 100px;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    padding:30px;
+    box-shadow: 1px 1px 30px black;
+    
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+.profile{
+    width: 70%;
+    border-radius: 200%;
+    margin-bottom: 20px;
+}
+h1{
+    margin-bottom: 40px;
+}
+p{
+    margin-bottom: 20px;
+}
+button{
+    
+    border:none;
+    background-color: orangered;
+    color: azure;
+    font-size: 30px;
+}
+.hyu1{
+    margin-left: 100px;
+}
+.hyu2{
+    margin-right: 100px;
+}
+.linkedin{
+    position:static;
+    top:20px;
+    right: 50px;
+    width: 200px;
+}
+.git{
+    position: static;
+    bottom: 20px;
+    right: 250px;
+    width: 200px;
+}

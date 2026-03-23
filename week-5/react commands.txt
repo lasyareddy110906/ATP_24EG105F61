@@ -1,0 +1,7 @@
+npm create vite@latest
+    - y
+    - .(current folder)
+    - react
+    - javascript
+    - yes
+    
