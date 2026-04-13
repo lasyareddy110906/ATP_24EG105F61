@@ -1,0 +1,6 @@
+STATE MANAGEMENT:
+	sharing state + keeping state sync across application
+	
+	to solve this:
+		Context API---> small apps
+		Redux / Zustand---> large apps
